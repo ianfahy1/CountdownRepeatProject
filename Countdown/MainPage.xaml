@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Countdown.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Background="#444444">
+
+    <StackLayout>
+
+        <Grid
+            x:Name="LetterBox"
+            Margin="100"
+            BackgroundColor="#338fb9"
+            ColumnDefinitions="*,*,*,*,*,*,*,*,*"
+            HeightRequest="100"
+            RowDefinitions="*"
+            VerticalOptions="Start"
+            WidthRequest="900">
+
+            <!--
+                Frames
+            -->
+
+            <!--  Frame 0  -->
+            <Frame
+                Grid.Row="0"
+                Grid.Column="0"
+                Padding="0"
+                BackgroundColor="#1735de"
+                CornerRadius="0"
+                HeightRequest="90"
+                WidthRequest="90">
+                <Label
+                    x:Name="L0"
+                    BackgroundColor="#1735de"
+                    FontAttributes="Bold"
+                    FontSize="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </Frame>
+
+            <!--  Frame 1  -->
+            <Frame
+                Grid.Row="0"
+                Grid.Column="1"
+                Padding="0"
+                BackgroundColor="#1735de"
+                CornerRadius="0"
+                HeightRequest="90"
+                WidthRequest="90">
+                <Label
+                    x:Name="L1"
+                    BackgroundColor="#1735de"
+                    FontAttributes="Bold"
+                    FontSize="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </Frame>
+
+            <!--  Frame 2  -->
+            <Frame
+                Grid.Row="0"
+                Grid.Column="2"
+                Padding="0"
+                BackgroundColor="#1735de"
+                CornerRadius="0"
+                HeightRequest="90"
+                WidthRequest="90">
+                <Label
+                    x:Name="L2"
+                    BackgroundColor="#1735de"
+                    FontAttributes="Bold"
+                    FontSize="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </Frame>
+
+            <!--  Frame 3  -->
+            <Frame
+                Grid.Row="0"
+                Grid.Column="3"
+                Padding="0"
+                BackgroundColor="#1735de"
+                CornerRadius="0"
+                HeightRequest="90"
+                WidthRequest="90">
+                <Label
+                    x:Name="L3"
+                    BackgroundColor="#1735de"
+                    FontAttributes="Bold"
+                    FontSize="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </Frame>
+
+            <!--  Frame 4  -->
+            <Frame
+                Grid.Row="0"
+                Grid.Column="4"
+                Padding="0"
+                BackgroundColor="#1735de"
+                CornerRadius="0"
+                HeightRequest="90"
+                WidthRequest="90">
+                <Label
+                    x:Name="L4"
+                    BackgroundColor="#1735de"
+                    FontAttributes="Bold"
+                    FontSize="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </Frame>
+
+            <!--  Frame 5  -->
+            <Frame
+                Grid.Row="0"
+                Grid.Column="5"
+                Padding="0"
+                BackgroundColor="#1735de"
+                CornerRadius="0"
+                HeightRequest="90"
+                WidthRequest="90">
+                <Label
+                    x:Name="L5"
+                    BackgroundColor="#1735de"
+                    FontAttributes="Bold"
+                    FontSize="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </Frame>
+
+            <!--  Frame 6  -->
+            <Frame
+                Grid.Row="0"
+                Grid.Column="6"
+                Padding="0"
+                BackgroundColor="#1735de"
+                CornerRadius="0"
+                HeightRequest="90"
+                WidthRequest="90">
+                <Label
+                    x:Name="L6"
+                    BackgroundColor="#1735de"
+                    FontAttributes="Bold"
+                    FontSize="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </Frame>
+
+            <!--  Frame 7  -->
+            <Frame
+                Grid.Row="0"
+                Grid.Column="7"
+                Padding="0"
+                BackgroundColor="#1735de"
+                CornerRadius="0"
+                HeightRequest="90"
+                WidthRequest="90">
+                <Label
+                    x:Name="L7"
+                    BackgroundColor="#1735de"
+                    FontAttributes="Bold"
+                    FontSize="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </Frame>
+
+            <!--  Frame 8  -->
+            <Frame
+                Grid.Row="0"
+                Grid.Column="8"
+                Padding="0"
+                BackgroundColor="#1735de"
+                CornerRadius="0"
+                HeightRequest="90"
+                WidthRequest="90">
+                <Label
+                    x:Name="L8"
+                    BackgroundColor="#1735de"
+                    FontAttributes="Bold"
+                    FontSize="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </Frame>
+
+        </Grid>
+
+        <Grid
+            Margin="10"
+            ColumnDefinitions="*,*"
+            HeightRequest="100"
+            RowDefinitions="*"
+            VerticalOptions="Start"
+            WidthRequest="900">
+
+            <Button
+                x:Name="ConsonantButton"
+                Grid.Row="0"
+                Grid.Column="0"
+                Padding="0"
+                Background="#338fb9"
+                Clicked="ConsonantClicked"
+                CornerRadius="10"
+                FontSize="30"
+                HeightRequest="80"
+                SemanticProperties.Hint="Gives the player a consonant"
+                Text="Consonant"
+                WidthRequest="200" />
+
+            <Button
+                x:Name="VowelButton"
+                Grid.Row="0"
+                Grid.Column="1"
+                Padding="0"
+                Background="#338fb9"
+                Clicked="VowelClicked"
+                CornerRadius="10"
+                FontSize="30"
+                HeightRequest="80"
+                SemanticProperties.Hint="Gives the player a consonant"
+                Text="Vowel"
+                WidthRequest="200" />
+
+        </Grid>
+
+        <Frame
+            Margin="90"
+            BackgroundColor="#444444"
+            HeightRequest="200"
+            WidthRequest="200">
+
+            <Label
+                x:Name="timer_lbl"
+                FontSize="100"
+                HorizontalTextAlignment="Center"
+                Text="30"
+                VerticalTextAlignment="Center" />
+        </Frame>
+
+    </StackLayout>
+
+</ContentPage>

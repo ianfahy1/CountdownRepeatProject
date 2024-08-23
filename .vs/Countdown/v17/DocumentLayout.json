@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ian\\OneDrive - Atlantic TU\\Second Year\\Sem2\\Repeats\\Internet and Mobile Applications\\Countdown\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65688EAC-2775-47AD-8671-D486AA42AE68}|Countdown\\Fahy_Ian_Countdown.csproj|c:\\users\\ian\\onedrive - atlantic tu\\second year\\sem2\\repeats\\internet and mobile applications\\countdown\\countdown\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65688EAC-2775-47AD-8671-D486AA42AE68}|Countdown\\Fahy_Ian_Countdown.csproj|solutionrelative:countdown\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65688EAC-2775-47AD-8671-D486AA42AE68}|Countdown\\Fahy_Ian_Countdown.csproj|c:\\users\\ian\\onedrive - atlantic tu\\second year\\sem2\\repeats\\internet and mobile applications\\countdown\\countdown\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{65688EAC-2775-47AD-8671-D486AA42AE68}|Countdown\\Fahy_Ian_Countdown.csproj|solutionrelative:countdown\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 359,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ian\\OneDrive - Atlantic TU\\Second Year\\Sem2\\Repeats\\Internet and Mobile Applications\\Countdown\\Countdown\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Countdown\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ian\\OneDrive - Atlantic TU\\Second Year\\Sem2\\Repeats\\Internet and Mobile Applications\\Countdown\\Countdown\\MainPage.xaml.cs",
+              "RelativeToolTip": "Countdown\\MainPage.xaml.cs",
+              "ViewState": "AQIAADEBAAAAAAAAAAAcwDQBAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T01:31:51.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ian\\OneDrive - Atlantic TU\\Second Year\\Sem2\\Repeats\\Internet and Mobile Applications\\Countdown\\Countdown\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Countdown\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Ian\\OneDrive - Atlantic TU\\Second Year\\Sem2\\Repeats\\Internet and Mobile Applications\\Countdown\\Countdown\\MainPage.xaml",
+              "RelativeToolTip": "Countdown\\MainPage.xaml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAO0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-07T01:30:49.221Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 53,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
